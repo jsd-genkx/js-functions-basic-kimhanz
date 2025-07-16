@@ -15,6 +15,8 @@ Task 02: Check Even or Odd
 
 // 👨‍💻 TODO-01: Write your code below to complete the task as described above.
 
+const checkEvenOrOdd = (number) => (number % 2 === 0 ? "Even" : "Odd");
+
 // Example Test Cases
 console.log(checkEvenOrOdd(4)); // "Even"
 console.log(checkEvenOrOdd(9)); // "Odd"
